@@ -1,1 +1,1 @@
-# deploy-awscli
+# deploy-gradle-awscli
