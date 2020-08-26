@@ -1,7 +1,6 @@
 FROM gradle:6.6-jdk11
 RUN apt-get update && \
     apt-get install --yes \
-        binutils \
         curl \
         git \
         openssh-client \
