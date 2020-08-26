@@ -1,5 +1,4 @@
 FROM gradle:6.6-jdk11
-
 RUN apt-get update && \
     apt-get install --yes \
         binutils \
@@ -19,5 +18,4 @@ RUN apt-get update && \
         /usr/local/aws-cli/v2/*/dist/awscli/data/ac.index \
         /usr/local/aws-cli/v2/*/dist/awscli/examples \
     && rm -rf /var/lib/apt/lists/*
-
 ENTRYPOINT [ "sh" ]
